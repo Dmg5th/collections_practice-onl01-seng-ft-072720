@@ -28,4 +28,6 @@ array.each do |letter|
   end 
 end 
 
-def find_a
+def find_a(array)
+  
+end 
