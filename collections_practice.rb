@@ -34,4 +34,7 @@ array.select do |x|
   end 
 end 
 
+def sum_array(array)
+  
+
 
