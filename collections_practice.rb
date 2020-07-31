@@ -43,7 +43,7 @@ def add_s(array)
     if index == 1 
     return string
   else 
-    string.prepend("s")
+    string.append("s")
     end 
   end 
 end 
