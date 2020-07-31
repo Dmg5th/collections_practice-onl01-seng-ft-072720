@@ -39,9 +39,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect do |
-    if x == 
-  
+  array.each_with_index.collect do |index, string|
+    if index == 1 
+    return string
+  else 
+    string.prepend("s")
+    end 
   end 
 end 
   
