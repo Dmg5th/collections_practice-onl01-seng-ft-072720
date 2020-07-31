@@ -24,8 +24,8 @@ end
 
 def kesha_maker(array)
   newarr = []
-  newarr.push(0..array.size).step(5) do |n| 
-    array[n] = array[$]
+  newarr.push(0..array.size).step(3) do |n| 
+    array[n] = $
   end 
   return newarr 
 end 
