@@ -29,7 +29,6 @@ array.each do |letter|
 end 
 
 def find_a(array)
-  newarr = []
 array.each do |x|
   if x[0] = "a"
     newarr.push(x)
