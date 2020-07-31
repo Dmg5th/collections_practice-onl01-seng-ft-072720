@@ -33,6 +33,7 @@ def find_a(array)
 array.each do |x|
   if x[0] = "a"
     newarr.push(x)
+    x += 1 
   end 
   return newarr
 end 
