@@ -31,7 +31,7 @@ end
 def find_a(array)
   newarr = []
 array.each do |x|
-  if x[1] = "a"
+  if x[0] = "a"
     newarr.push(x)
   end 
   return newarr
