@@ -29,7 +29,7 @@ array.each do |letter|
 end 
 
 def find_a(array)
-array.map do |x|
+array.collect do |x|
   array.start_with?("a")
   end 
 end 
