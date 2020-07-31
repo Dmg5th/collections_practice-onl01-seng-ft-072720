@@ -29,10 +29,6 @@ array.each do |letter|
 end 
 
 def find_a(array)
-array.each do |x|
-  if x[0] = "a"
-    newarr.push(x)
-    x += 1 
-  end 
-  return newarr
+array.select do |x|
+  start_with?("a")
 end 
