@@ -23,9 +23,7 @@ def reverse_array(array)
 end 
 
 def kesha_maker(array)
-  newarr = []
-  newarr.push(0..array.size).step(3) do |n| 
-    array[n] = array[$]
-  end 
-  return newarr 
+array.each do |letter|
+  letter[2] = "$"
+end 
 end 
