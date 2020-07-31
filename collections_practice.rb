@@ -54,7 +54,7 @@ end
     if index == 1
       string
     else
-      string.Append("s")
+      string.push("s")
     end
   end
 end
