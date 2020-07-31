@@ -24,7 +24,8 @@ end
 
 def kesha_maker(array)
   newarr = []
- (0..str.size).step(5).to_a 
+  newarr.push(0..array.size).step(5) do |n| 
+    array[n] = str[$]
   end 
   return newarr 
 end 
