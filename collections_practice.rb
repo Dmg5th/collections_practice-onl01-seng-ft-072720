@@ -24,8 +24,7 @@ end
 
 def kesha_maker(array)
   newarr = []
-  array.each do |letter|
-    letter[2] = $ 
+ (0..str.size).step(5).to_a 
   end 
   return newarr 
 end 
