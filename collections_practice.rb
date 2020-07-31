@@ -54,7 +54,7 @@ end
     if index == 1
       string
     else
-      string << "s"
+      string.append("s")
     end
   end
 end
